@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>h6{background-color: grey;}</style>
+
+</head>
+<body>
+    <h6>  &nbsp; &nbsp;    You are Presenting</h6>
+    <div class="container">
+        <div class="video">
+            <img src="{{ url_for('video_feed') }}" alt="Video Stream" width="2000" height="620" id="vid1">
+        </div>
+        <div class="icons-container">
+            <i class='bx bx-user' ></i>
+            <i class='bx bxs-microphone' ></i>
+            <i class='bx bxs-video'></i>
+            <i class='bx bx-captions' ></i>
+            <i class='bx bxs-hand' ></i>
+            <i class='bx bx-slideshow'></i>
+            <i class='bx bxs-phone' ></i>
+            <i class='bx bx-chat'></i>
+            <i class='bx bx-alarm-exclamation'></i>            
+            <i class='bx bx-dots-vertical-rounded'></i>
+        </div>
+        <div class="user-profiles">
+            <!-- User Profiles -->
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user1.jpeg') }}" alt="User 1">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user3.jpg') }}" alt="User 3">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user8.jpg') }}" alt="User 8">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user4.jpg') }}" alt="User 4">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user10.jpg') }}" alt="User 10">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user6.jpeg') }}" alt="User 6">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user7.jpg') }}" alt="User 7">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user2.jpg') }}" alt="User 2">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user9.jpg') }}" alt="User 9">
+            </div>
+            <div class="user-profile">
+                <img src="{{ url_for('static', filename='user5.jpg') }}" alt="User 5">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

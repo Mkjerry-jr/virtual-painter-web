@@ -1,0 +1,156 @@
+*{
+    background-color: black;
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+h6{
+    font-size: 30px;
+    margin-top: -0.11%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: -30%;
+}
+.user-profiles {
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+.user-profile {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.user-profile img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.user-profile h3 {
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color:black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.user-profile:hover h3 {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#vid1{
+    display: block;
+    height:500;
+    width:1000;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.video {
+    margin-top: -10%;
+    flex: 0 0 60%;
+    max-width: 70%;
+    margin-left: 10px;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.user-profiles {
+    flex: 0 0 25%;
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -8%;
+}
+.user-profile {
+    width: 45%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.user-profile img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    font-size: 50px; /* Adjust the icon size as needed */
+    margin: 0 35px; /* Adjust the spacing between icons */
+    cursor: pointer;
+    margin-top: 17px;
+    
+}
+.bxs-microphone, .bxs-video, .bx-captions, .bxs-hand, .bx-slideshow, .bxs-phone, .bx-user {
+    color: #ffffff; /* Change microphone icon color */
+    background-color: rgba(255, 255, 255, 0.2); /* Background color with opacity */
+    border-radius: 50%; /* Make the background circular */
+    padding: 10px; /* Add padding to create space between icon and background */
+    margin-right:10px ;
+}
+.bxs-phone{
+    background-color: red;
+    margin-right: 10%;
+}
+.bx-user{
+    margin-right: 20%;
+    margin-left: 0%;
+    background-color: gray;
+    color: black;
+}
+.bxs-microphone{
+    margin-left: 10%;
+}
+.bx-chat{
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#vid1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+}
